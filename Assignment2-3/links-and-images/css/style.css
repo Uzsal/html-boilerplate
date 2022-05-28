@@ -1,0 +1,15 @@
+
+
+h1 {
+background-color:Blue; }
+
+p {
+	color:Red;
+font-size:40px;	}
+	
+body {
+   font-family:font-family: Arial, Helvetica, sans-serif;
+   border-style:dashed; }
+   
+img {
+	border-radius:75%; }

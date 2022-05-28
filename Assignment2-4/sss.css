@@ -1,0 +1,96 @@
+@font-face {
+font-family:'robo';
+src: url(C:\Users\Admins\Desktop\Roboto-Regular.ttf); }
+
+ * {
+	 box-sizing: border-box; }
+  
+ header {
+	 background-color: #1f2937;  }
+  
+ .logo {
+	 font: 24px #f9faf8;    }
+  
+ body {
+	 font-family: 'robo'; sans-serif;   }
+   
+ .but {
+	 background-color: #3882f6;
+	 border-color: white;
+	 height: 35px;
+	 width: 70px;
+     border-radius: 5px;	 
+     color: white; 	}
+	 
+ .but2 {
+	 margin-left:800px;
+	 transform: translate(0, -100%);  }	 
+
+ .aws {
+	 font: 48px extra-bold #f9faf8;  }
+ 
+ .link {
+	 font: 18px #e5e7eb;  }
+ 
+ .inf {
+	 font: 36px extra-bold #1f2937;  }
+	 
+ .qu {
+	 flex: 30%;
+     background-color: #e5e7eb;
+     font: 36px light italic #1f2937; 
+     padding: 50px;
+     text-align:center;	 
+     width:100%;  }
+
+ .column {
+	 float: left;
+     width: 100%;
+     padding: 15px;
+     background-color:#3882f6;
+	 
+     color: #ffffff;  }
+
+/* Clear floats after the columns */
+ .row:after {
+	 content: "";
+     display: table;
+     clear: both;  }
+
+ footer {
+	 text-align: center;
+     background-color : #1f2937;
+     padding :10px;  }
+	
+
+/* اللي على اليسار */
+ div.relative {
+	 position: relative;
+	 left: 1000px;
+	 border: 1px solid #b3b3b3;
+	 color: white;
+	 background-color : #cccccc;
+	 width: 300px;
+	 padding-top: 15px;
+	 height: 100px;			
+	 transform: translate(-80%, -80%);     }
+			
+/*المربعات الأربعة*/			
+ .flex-container {
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+	 height: 130px;
+	 align-items: center;   	}
+
+ .flex-container > div {
+	 margin: 10px;
+     padding: 20px;
+     font-size: 30px;
+     border: 2px solid #3882f6;
+     border-radius: 5px;
+     padding: 50px;  }
+	 
+	 
+	 
+	 
